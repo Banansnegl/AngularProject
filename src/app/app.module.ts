@@ -22,7 +22,7 @@ import { CalendarComponent } from './02/calendar.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: false }),
+    RouterModule.forRoot(rootRouterConfig, { useHash: true }),
   ],
   providers: [],
   bootstrap: [AppComponent]
